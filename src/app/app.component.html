@@ -1,0 +1,6 @@
+<div>
+  <div>{{ showEditBtn }}</div>
+  <div>{{ showEditBtn }}</div>
+  <button (click)="showEditBtn = false" *ngIf="showEditBtn">Edit</button>
+  <button (click)="showEditBtn = true" *ngIf="!showEditBtn">Submit</button>
+</div>
